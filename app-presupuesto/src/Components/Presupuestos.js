@@ -33,7 +33,7 @@ const presupuestos = ({
       .then((res) => res.text())
       .then((res) => console.log(res));
 
-    //reiniciando state de libro
+    //reiniciando state de presupuesto
     setPresupuesto({
       concepto: "",
       monto: 0,

@@ -27,7 +27,7 @@ const Formulario = ({ presupuesto, setPresupuesto }) => {
       .then((res) => res.text())
       .then((res) => console.log(res));
 
-    //reiniciando state de libro
+    //reiniciando state del presupuesto
     setPresupuesto({
       concepto: "",
       monto: 0,
